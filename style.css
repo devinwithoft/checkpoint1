@@ -1,0 +1,48 @@
+.text-good {
+    color: #07AB80;
+}
+
+.bg-good {
+    background-color: #07AB80;
+}
+
+.bg-hero {
+    background-image: url(https://images.unsplash.com/photo-1595017013941-cab3d4c8d02f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fontf {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.bg-gy {
+    background-color: #eaeaea;
+}
+
+.floatc {
+    transform: translateY(4vh);
+}
+
+.bigbottom {
+    min-height: 6vh;
+}
+
+.btn1 {
+    justify-content: end;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .floatc {
+        transform: translateY(0);
+    }
+
+    .btn1 {
+        justify-content: center;
+    }
+}
